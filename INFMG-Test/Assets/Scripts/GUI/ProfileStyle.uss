@@ -1,0 +1,41 @@
+VisualElement {}
+
+.unity-image {
+	--unity-image-size: scale-to-fit;
+}
+
+.base {
+	position: absolute;
+	top: 60%;
+	width: 100%;
+}
+
+
+#Upload {
+	background-color: white;
+}
+
+#Back {
+	background-color: red;
+	color: white;
+	margin-top: 40px;
+}
+
+.button {
+	position: relative;
+	font-size: 60px;
+	-unity-font-style: bold;
+
+	width: 70%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Logo {
+	--unity-image: url("/Assets/Sprites/Extras/Logo.png");
+	position: relative;
+	width: 80%;
+	height: auto;
+	margin: auto;
+}

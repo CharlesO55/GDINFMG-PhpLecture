@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/GUI/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=97f063257e10b614cb259902c118e8d0&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement class="base">
+        <ui:Image name="Logo" />
+        <ui:TextField name="Username" placeholder-text="Username" class="field" />
+        <ui:TextField name="Password" placeholder-text="Password" class="field" />
+        <ui:VisualElement class="inner-group">
+            <ui:Button text="LOGIN" name="Login" class="button" />
+            <ui:Button text="REGISTER" name="Register" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
